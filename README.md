@@ -20,11 +20,12 @@
 
 ```objective-c
 // 创建下载任务
-XXDownloadTaskID taskId = [[XXDownloader sharedDownloader] downloadTaskWith:self.downloadURL
-                                                       stateChanged:^(NSURLSessionTaskState state) {}
-                                                           progress:^(CGFloat progress) {}
-                                                         completion:^(NSError *error, NSString *filePath) {}
-                               ];
+XXDownloadTaskID taskId = 
+[[XXDownloader sharedDownloader] downloadTaskWith:self.downloadURL
+                                     stateChanged:^(NSURLSessionTaskState state) {}
+                                         progress:^(CGFloat progress) {}
+                                       completion:^(NSError *error, NSString *filePath) {}
+ ];
 
 // 开始 / 继续任务
 [[XXDownloader sharedDownloader] resume:taskId];
