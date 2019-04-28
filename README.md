@@ -14,7 +14,8 @@
 - 离线下载
 - 后台下载
 
-
+## Screenshot
+![shot](https://github.com/CoderMrUku/XHDownloader/blob/master/screenshot.png)
 
 ## 使用步骤：
 
